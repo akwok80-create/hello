@@ -16,8 +16,8 @@ public class fishing
         System.out.println("Wow, time's running out. Let's see what we can catch in "+ mins + " minutes.");
         timeLow = mins / 30;
       }
-
-
+      miniGame();
+      
     }
 
     return;
@@ -41,6 +41,7 @@ public class fishing
       System.out.println("Dang, you don't know how to count. Try again.");
       typed = miniGamer.nextLine();
     }
+    return;
   }
 
 }
