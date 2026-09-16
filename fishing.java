@@ -10,7 +10,7 @@ public class fishing
     int mins = input.nextInt();
     while (mins > 0)
     {
-      timeLow = 1;
+      int timeLow = 1;
       if (mins < 30)
       {
         System.out.println("Wow, time's running out. Let's see what we can catch in "+ mins + " minutes.");
@@ -26,8 +26,8 @@ public class fishing
 
   public static void miniGame(String[] args)
   {
-    int randn = (int)Math.random() * 21;
-    int randtypenum = (int)math.random() * 10;
+    int randn = (int)(Math.random() * 21);
+    int randtypenum = (int)(Math.random() * 10);
     String answer = "";
     for (int i=0; i<randn; i++)
     {
@@ -36,7 +36,7 @@ public class fishing
     System.out.println("Doo doo doo... Type the number '"+randtypenum+"' "+randn+" times without spaces in between, then press ENTER.");
     Scanner miniGamer = new Scanner(System.in);
     String typed = miniGamer.nextLine();
-    while (!type.equals(answer))
+    while (!(typed.equals(answer)))
     {
       System.out.println("Dang, you don't know how to count. Try again.");
       typed = miniGamer.nextLine();
