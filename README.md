@@ -10,7 +10,8 @@ add.java is a java program that adds the number the user inputs. The program sto
 when the number inputted is negative. add.class is the result of javac add.java.
 
 
-
+The fishing.java program simulates fishing. The instructions are printed. The program uses Scanner 
+to take into account the User's decisions.
 
 
 Have a great day!
